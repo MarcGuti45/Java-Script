@@ -1,5 +1,5 @@
-let valor = 'Exercici 4 com anem'
-console.log(valor) 
+/* const constant = 45
+console.log(constant) */
 
-/* let valor = 67
-console.log(valor) */
+const constant = 'Hola que tal'
+console.log(constant)
