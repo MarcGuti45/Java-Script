@@ -1,2 +1,7 @@
-console.log("Marc Gutiérrez Luna")
-console.info("05/05/2003")
+const adeu = 'Adeu'
+let hola = 'Hola'
+var com_anem = 'Com anem'
+
+console.log(adeu)
+console.log(hola)
+console.log(com_anem)
