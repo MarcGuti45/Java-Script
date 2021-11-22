@@ -1,7 +1,5 @@
-console.log(variable)
+let valor = 'Exercici 4 com anem'
+console.log(valor) 
 
-var variable = 'Variable amb var'
-
-/*  console.log(variable)
-
-let variable = 'Variable amb var' */
+/* let valor = 67
+console.log(valor) */
