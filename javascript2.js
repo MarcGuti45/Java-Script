@@ -44,5 +44,10 @@ console.log(String + true) */
 
 
 // Exercici 13
-console.log(Boolean('Hey com anem'))
-console.log(true || 'hola bon dia')
+/* console.log(Boolean('Hey com anem'))
+console.log(true || 'hola bon dia') */
+
+
+// Exercici 14
+console.log(Number(true))
+console.log(33 != true)
