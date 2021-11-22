@@ -1,5 +1,4 @@
-/* const constant = 45
-console.log(constant) */
-
-const constant = 'Hola que tal'
+const constant = 45
+// constant = 'hola'
 console.log(constant)
+
