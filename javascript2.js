@@ -21,6 +21,12 @@ console.log(num/string) */
 
 
 //Exercici 9
-var nom = 'Marc Gutiérrez Luna'
+/* var nom = 'Marc Gutiérrez Luna'
 var cognom = nom.slice(4,13)
-console.log(cognom.length) 
+console.log(cognom.length) */
+
+
+//Exercici 10
+var nom = 'Marc Gutiérrez Luna'
+var canvi = nom.replace('u', '')
+console.log(canvi)
