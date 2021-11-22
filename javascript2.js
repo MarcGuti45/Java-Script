@@ -33,6 +33,11 @@ console.log(canvi) */
 
 
 // Exercici 11
-var variable1 = undefined
+/* var variable1 = undefined
 var variable2 = null
-console.log(variable1 + variable2)
+console.log(variable1 + variable2) */
+
+
+// Exercici 12
+console.log(String(true))
+console.log(String + true)
