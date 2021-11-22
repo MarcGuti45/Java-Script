@@ -1,7 +1,7 @@
-const adeu = 'Adeu'
-let hola = 'Hola'
-var com_anem = 'Com anem'
+console.log(variable)
 
-console.log(adeu)
-console.log(hola)
-console.log(com_anem)
+var variable = 'Variable amb var'
+
+/*  console.log(variable)
+
+let variable = 'Variable amb var' */
