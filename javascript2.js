@@ -39,5 +39,10 @@ console.log(variable1 + variable2) */
 
 
 // Exercici 12
-console.log(String(true))
-console.log(String + true)
+/* console.log(String(true))
+console.log(String + true) */
+
+
+// Exercici 13
+console.log(Boolean('Hey com anem'))
+console.log(true || 'hola bon dia')
