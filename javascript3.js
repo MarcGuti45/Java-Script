@@ -14,9 +14,15 @@ fhola() */
 
 
 // Exercici 3 Funcions
-function fdata(data = new Date){
+/* function fdata(data = new Date){
     console.log(data) 
 }
-fdata()
+fdata() */
 
+
+// Exercici 4 Funcions
+function fvar(){
+    var hola = 'Bon dia';
+}
+console.log(hola);
         
