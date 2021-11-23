@@ -21,8 +21,18 @@ fdata() */
 
 
 // Exercici 4 Funcions
-function fvar(){
+/* function fvar(){
     var hola = 'Bon dia';
 }
-console.log(hola);
+console.log(hola); */
+
+
+// Exercici 5 Funcions
+function vocal(str){
+    const count = str.match(/[aeiou]/gi).length;
+    return count;
+}
+const string = 'hola que tal bon dia senyor'
+const resultat = vocal(string)
+console.log(resultat)
         
