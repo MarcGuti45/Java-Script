@@ -35,26 +35,26 @@ console.log(hola); */
 const string = 'hola que tal bon dia senyor'
 const resultat = vocal(string)
 console.log(resultat) */
-
-/* altre metode: function Vocales(s = 'hola que tal com estas?') {
-                    var vocales = 0;
-                    for (var i = 0; i < s.length; i++) {
-                        var c = s[i];
-
-                        if (c == "a" || c == "e" || c == "i" || c == "o" || c == "u") {
-                            vocales++;
-                        }
-
-                    }
-                    console.log(vocales);
-                }
-
-                Vocales(); */
         
 
 // Exercici 6 Funcions
-function numeros(a, b, c = 7){
+/* function numeros(a, b, c = 7){
     return a+b+c  
 }
-console.log(numeros(23,12))
+console.log(numeros(23,12)) */
 
+
+// Exercici 7 Funcions   
+function fdata(data = new Date()){
+    console.log(data)
+}
+
+function numeros(a,b,c = 7){
+    return a+b+c;
+}
+
+function ex7(a,b,c){
+    fdata();
+    return numeros(a,b,c)
+}
+console.log(ex7(3,56,21));
