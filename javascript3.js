@@ -93,5 +93,20 @@ console.log(arrel(3.33)) */
 
 
 // Exercici 12 Funcions
-var minuscula = a => a.toLowerCase()
-console.log(minuscula("Hola Bon Dia Com Anem"))
+/* var minuscula = a => a.toLowerCase()
+console.log(minuscula("Hola Bon Dia Com Anem")) */
+
+
+// Exercici 13 Funcions
+var noNull = (a,b) => {
+
+    if (a!=null && b==null)
+        return a
+
+    else if (a==null && b!=null)
+        return b
+
+    else if (a!=null && b!=null)
+        return [a,b] 
+}
+console.log(noNull(null,9))
