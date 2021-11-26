@@ -61,9 +61,18 @@ console.log(ex7(3,56,21)); */
 
 
 // Exercici 8 Funcions
-function numero(a,b){
+/* function numero(a,b){
     if (a == 30 || b == 30 || a+b == 30) {
         return true;
     } 
 }
-console.log(numero(10,20))
+console.log(numero(10,20)) */
+
+
+// Exercici 9 Funcions
+var numero = function(a,b){
+    if (a == 30 || b == 30 || a+b == 30) {
+    return true
+    }
+}
+console.log(numero(28,2))
