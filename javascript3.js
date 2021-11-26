@@ -113,7 +113,7 @@ console.log(noNull(null,9)) */
 
 
 // Exercici 14 Funcions
-var posicio = (a,b) => {
+/* var posicio = (a,b) => {
     return (a.length-a.indexOf(b))
 }
 console.log(posicio('Hola em dic marc','dic'));
@@ -121,5 +121,12 @@ console.log(posicio('Hola em dic marc','dic'));
 var dividir = (a,b) => {
     return b.substr(a,b.length)
 }
-console.log(dividir(posicio('Hola em dic marc','dic'),'Hola em dic marc'))
+console.log(dividir(posicio('Hola em dic marc','dic'),'Hola em dic marc')) */
 
+
+// Exercici 15 Funcions
+var funcio1 = (x) => x + x + x
+console.log(funcio1(23))
+
+var funcio2 = (p, n, r, t) => p * Math.pow(1 + (r / n), n * t)
+console.log(funcio2(4,9,2,8))
