@@ -79,9 +79,14 @@ console.log(numero(28,2)) */
 
 
 // Exercici 10 Funcions
-var mateix = (a,b) => {
+/* var mateix = (a,b) => {
     if (a === b)
     return true
     else return false
 }
-console.log(mateix(7,6))
+console.log(mateix(7,6)) */
+
+
+// Exercici 11 Funcions
+var arrel = a => Math.sqrt(a).toFixed(2)
+console.log(arrel(3.33))
