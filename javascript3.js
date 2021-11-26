@@ -45,7 +45,7 @@ console.log(numeros(23,12)) */
 
 
 // Exercici 7 Funcions   
-function fdata(data = new Date()){
+/* function fdata(data = new Date()){
     console.log(data)
 }
 
@@ -57,4 +57,13 @@ function ex7(a,b,c){
     fdata();
     return numeros(a,b,c)
 }
-console.log(ex7(3,56,21));
+console.log(ex7(3,56,21)); */
+
+
+// Exercici 8 Funcions
+function numero(a,b){
+    if (a == 30 || b == 30 || a+b == 30) {
+        return true;
+    } 
+}
+console.log(numero(10,20))
