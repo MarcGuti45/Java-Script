@@ -98,7 +98,7 @@ console.log(minuscula("Hola Bon Dia Com Anem")) */
 
 
 // Exercici 13 Funcions
-var noNull = (a,b) => {
+/* var noNull = (a,b) => {
 
     if (a!=null && b==null)
         return a
@@ -109,4 +109,17 @@ var noNull = (a,b) => {
     else if (a!=null && b!=null)
         return [a,b] 
 }
-console.log(noNull(null,9))
+console.log(noNull(null,9)) */
+
+
+// Exercici 14 Funcions
+var posicio = (a,b) => {
+    return (a.length-a.indexOf(b))
+}
+console.log(posicio('Hola em dic marc','dic'));
+
+var dividir = (a,b) => {
+    return b.substr(a,b.length)
+}
+console.log(dividir(posicio('Hola em dic marc','dic'),'Hola em dic marc'))
+
