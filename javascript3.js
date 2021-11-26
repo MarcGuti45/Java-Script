@@ -88,5 +88,10 @@ console.log(mateix(7,6)) */
 
 
 // Exercici 11 Funcions
-var arrel = a => Math.sqrt(a).toFixed(2)
-console.log(arrel(3.33))
+/* var arrel = a => Math.sqrt(a).toFixed(2)
+console.log(arrel(3.33)) */
+
+
+// Exercici 12 Funcions
+var minuscula = a => a.toLowerCase()
+console.log(minuscula("Hola Bon Dia Com Anem"))
