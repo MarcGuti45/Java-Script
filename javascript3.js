@@ -70,9 +70,18 @@ console.log(numero(10,20)) */
 
 
 // Exercici 9 Funcions
-var numero = function(a,b){
+/* var numero = function(a,b){
     if (a == 30 || b == 30 || a+b == 30) {
     return true
     }
 }
-console.log(numero(28,2))
+console.log(numero(28,2)) */
+
+
+// Exercici 10 Funcions
+var mateix = (a,b) => {
+    if (a === b)
+    return true
+    else return false
+}
+console.log(mateix(7,6))
