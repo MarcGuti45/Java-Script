@@ -31,6 +31,7 @@ var rangy = y >= 10 && x <= 50
 
 
 // Exercici 3 Lógica
+/*
 var x = 5
 
 switch (true){
@@ -54,3 +55,24 @@ switch (true){
     console.log("Excellent");
     break;
 }
+*/
+
+
+// Exercici 4 Lógica
+/*
+var x = 34
+*/
+
+
+// Exercici 5 Lógica
+
+
+// Exercici 6 Lógica
+var array = [7,5,9]
+let resultat = array.sort((a,b)=> a-b).reverse().join(", ")
+
+console.log(resultat)
+
+
+
+
