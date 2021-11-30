@@ -65,6 +65,15 @@ var x = 34
 
 
 // Exercici 5 Lógica
+var string  = "Hola bona tarda em dic Marc i tinc 18 anys i avui es dia 30 del 12"
+var numero = string.replace(/[^0-9]/ig, "");
+
+var a = 0;
+
+for (var i = 0; i < numero.length; i++){
+    a += Number(numero.charAt(i));
+}
+console.log(a);
 
 
 // Exercici 6 Lógica
@@ -80,6 +89,7 @@ console.log(resultat)
 
 
 // Exercici 8 Lógica
+/*
 function arbre(fila) {
     for (let i = 0; i < fila; i++) {
         let fila = '';
@@ -91,8 +101,12 @@ function arbre(fila) {
 }
 
 arbre(5);
-// Exercici 9 Lógica
+*/
 
+
+// Exercici 9 Lógica
+       
+            
 
 // Exercici 10 Lógica
 
