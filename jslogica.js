@@ -68,11 +68,33 @@ var x = 34
 
 
 // Exercici 6 Lógica
+/*
 var array = [7,5,9]
 let resultat = array.sort((a,b)=> a-b).reverse().join(", ")
 
 console.log(resultat)
+*/
 
 
+// Exercici 7 Lógica
 
 
+// Exercici 8 Lógica
+function arbre(fila) {
+    for (let i = 0; i < fila; i++) {
+        let fila = '';
+        for (let j = 0; j < i + 1; j++) {
+            fila = fila + '*';
+        }
+        console.log(fila)
+    }
+}
+
+arbre(5);
+// Exercici 9 Lógica
+
+
+// Exercici 10 Lógica
+
+
+// Exercici 11 Lógica
