@@ -65,6 +65,7 @@ var x = 34
 
 
 // Exercici 5 Lógica
+/*
 var string  = "Hola bona tarda em dic Marc i tinc 18 anys i avui es dia 30 del 12"
 var numero = string.replace(/[^0-9]/ig, "");
 
@@ -74,6 +75,7 @@ for (var i = 0; i < numero.length; i++){
     a += Number(numero.charAt(i));
 }
 console.log(a);
+*/
 
 
 // Exercici 6 Lógica
@@ -86,6 +88,17 @@ console.log(resultat)
 
 
 // Exercici 7 Lógica
+var numero = 7
+var contador = 0
+
+while (contador < numero){
+    contador++
+    console.log(contador)
+    if (contador % 2 == 0)
+    console.log("El numero es parell ")
+    else 
+    console.log("El numero es senar ")
+}
 
 
 // Exercici 8 Lógica
