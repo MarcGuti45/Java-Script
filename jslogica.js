@@ -135,6 +135,7 @@ arbre(5);
 
 
 // Exercici 9 Lógica
+/*
 var contador1 = 0;
 var contador2 = 0;
 var multiples3 = 0;
@@ -158,9 +159,25 @@ do {
 } while (contador1 <= 1000);
 
 console.log("La suma dels multiples de 3 i els multiples de 5 es: " + (multiples3 + multiples5));
+*/
 
 
 // Exercici 10 Lógica
+function arbre(fila) {
+    hola:
+    for (let i = 0; i < fila; i++) {
+        let fila = '';
+        for (let j = 0; j < i + 1; j++) {
+            fila = fila + '*';
+        }
+        for (var j = 0; j < i * 2 - 1; ++j) {
+            fila = fila + '*';   
+        }
+        console.log(fila)
+        continue hola;
+    }
+}
 
+arbre(5);
 
 // Exercici 11 Lógica
