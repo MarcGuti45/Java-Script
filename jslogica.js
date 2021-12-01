@@ -59,10 +59,22 @@ switch (true){
 
 
 // Exercici 4 Lógica
-/*
-var x = 34
-*/
+var x = 15
+var n = 0
+var i1 = 1
+var i2 = 2
+var contador = 0
+var acumulador = 0
 
+while (acumulador <= x){
+    n++
+    contador= i1 + i2
+    i1=0
+    i2++
+    acumulador+=contador
+}
+
+console.log("El total de n es: " +  n)
 
 // Exercici 5 Lógica
 /*
@@ -88,6 +100,7 @@ console.log(resultat)
 
 
 // Exercici 7 Lógica
+/*
 var numero = 7
 var contador = 0
 
@@ -99,6 +112,7 @@ while (contador < numero){
     else 
     console.log("El numero es senar ")
 }
+*/
 
 
 // Exercici 8 Lógica
@@ -118,8 +132,7 @@ arbre(5);
 
 
 // Exercici 9 Lógica
-       
-            
+
 
 // Exercici 10 Lógica
 
