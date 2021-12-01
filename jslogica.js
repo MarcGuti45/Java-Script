@@ -59,6 +59,7 @@ switch (true){
 
 
 // Exercici 4 Lógica
+/*
 var x = 15
 var n = 0
 var i1 = 1
@@ -75,6 +76,8 @@ while (acumulador <= x){
 }
 
 console.log("El total de n es: " +  n)
+*/
+
 
 // Exercici 5 Lógica
 /*
@@ -132,6 +135,29 @@ arbre(5);
 
 
 // Exercici 9 Lógica
+var contador1 = 0;
+var contador2 = 0;
+var multiples3 = 0;
+var multiples5 = 0;
+
+do {
+    if ((contador1 % 3 == 0) && (contador2 % 5 == 0)){
+        multiples3 = contador1 + multiples3;
+        multiples5 = contador2 + multiples5;
+    }
+    else {
+        if (contador1 % 3 == 0) {
+            multiples3 = contador1 + multiples3;
+        }
+        else if (contador2 % 5 == 0 ) {
+            multiples5 = contador2 + multiples5;
+        }
+    }
+    contador1++;
+    contador2++;
+} while (contador1 <= 1000);
+
+console.log("La suma dels multiples de 3 i els multiples de 5 es: " + (multiples3 + multiples5));
 
 
 // Exercici 10 Lógica
