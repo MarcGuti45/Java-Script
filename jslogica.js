@@ -76,6 +76,16 @@ while (acumulador <= x){
 }
 
 console.log("El total de n es: " +  n)
+
+let num = 15;
+let suma = 0;
+let i = 0;
+
+while (suma <= num){
+    i++;
+    suma += i;
+}
+document.write("Maxim iteracions: " + Number(i-1));
 */
 
 
@@ -90,6 +100,16 @@ for (var i = 0; i < numero.length; i++){
     a += Number(numero.charAt(i));
 }
 console.log(a);
+
+let cadena = "a3fdgrtgr67fgffdf";
+let suma = 0;
+
+for (i = 0; i < cadena.length; i++){
+    if (Number(cadaena[i])){
+        suma += Number(cadena[i])
+    }
+}
+console.log(suma)
 */
 
 
@@ -131,6 +151,13 @@ function arbre(fila) {
 }
 
 arbre(5);
+
+for(i = 1; i <= 5; i++){
+    for(j = 1; j < i+1; j++){
+        console.log("*");
+    }
+    console.log("<br/>");
+}
 */
 
 
@@ -181,3 +208,18 @@ function arbre(fila) {
 arbre(5);
 
 // Exercici 11 Lógica
+function cambiarNumeros (){
+    var numero = 235654
+    var array = Array.from([2, 3, 5, 6, 5, 4])
+    console.log(array)
+    var count = 0
+    for (var i = 0; i < array.length - count; i++){
+        if (i % 2 !== 0){
+            var temp = array[i]
+            array[i] = array[i - 1];
+            array [i - 1] = temp
+        }
+    }
+    console.log(array)
+}
+cambiarNumeros()
