@@ -11,9 +11,28 @@ let array = Array.from({length: 5}, () => Math.floor(Math.random() * 10));
 
 
 // Exercici 2 Estructures de Dades
-
+/*
 let array = Array.from({length: 5}, () => Math.floor(Math.random() * 10));
     document.write(array)
 
     let array2 = [33, 79, 56, 12, ...array]
     document.write("<br><br>" + array2)
+*/
+
+
+// Exercici 3 Estructures de Dades
+
+let array = [5,6,7,8,9] 
+let array2 = [6,7,3,4,2]
+let array3 = array.concat(array2);
+let senseDuplicats = [];
+
+document.write(array3)
+
+for (var i = 0; i < array3.length; i++) {
+    let duplicats = array3[i];
+    if (!senseDuplicats.includes(array3[i])) {
+        senseDuplicats.push(duplicats);
+    }
+}
+document.write("<br>" + senseDuplicats)
