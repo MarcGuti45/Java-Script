@@ -21,7 +21,7 @@ let array = Array.from({length: 5}, () => Math.floor(Math.random() * 10));
 
 
 // Exercici 3 Estructures de Dades
-
+/*
 let array = [5,6,7,8,9] 
 let array2 = [6,7,3,4,2]
 let array3 = array.concat(array2);
@@ -36,3 +36,20 @@ for (var i = 0; i < array3.length; i++) {
     }
 }
 document.write("<br>" + senseDuplicats)
+*/
+
+
+// Exercici 4 Estructures de Dades
+
+
+
+// Exercici 5 Estructures de Dades
+
+var array = [5, 7, 2, 8, 12, 57];
+var cub = array.map(function(x) {
+   return Math.pow(x,3);
+}
+);
+
+document.write("Array inicial ----> " + array + "<br>")
+document.write("Array elevat al cub ----> " + cub)
