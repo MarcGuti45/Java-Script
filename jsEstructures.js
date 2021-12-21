@@ -44,7 +44,7 @@ document.write("<br>" + senseDuplicats)
 
 
 // Exercici 5 Estructures de Dades
-
+/*
 var array = [5, 7, 2, 8, 12, 57];
 var cub = array.map(function(x) {
    return Math.pow(x,3);
@@ -53,3 +53,27 @@ var cub = array.map(function(x) {
 
 document.write("Array inicial ----> " + array + "<br>")
 document.write("Array elevat al cub ----> " + cub)
+*/
+
+
+// Exercici 6 Estructures de Dades
+
+var arrayString = ["Hola", "melo", "sandia", "cigro", "mandarina"];
+var arrayA = [];
+var contador = 0;
+var contadorA = 0;
+
+for (let i = 0; i < arrayString.length; i++){
+    for (let j = 0; j < arrayString[i].length; j++){
+        if (arrayString[i][j] == 'a' ){
+            contador++;
+            if (contador == 2){
+            arrayA[contadorA] = arrayString[i];
+            contadorA++;
+            } 
+        }   
+    }
+    contador = 0;   
+}
+document.write("Array de Strings ----> " + arrayString + "<br>")
+document.write("Array amb vocals A ----> " + arrayA )
